@@ -187,7 +187,7 @@ workflows:
           context: cicd-orchestrator
           filters:
             branches:
-              ignore:
+              only:
                 - master
                 # - /^[0-999].[0-999].x/
                 - 1.20.x
