@@ -1,6 +1,6 @@
 {
     "name": "Gravitee.io",
-    "version": "4.3.79",
+    "version": "4.4.89-SNAPSHOT",
     "buildTimestamp": "2020-10-15T07:19:32+0000",
     "scmSshUrl": "git@github.com:gravitee-io",
     "scmHttpUrl": "https://github.com/gravitee-io/",
@@ -39,15 +39,15 @@
         },
         {
             "name": "gravitee-management-rest-api",
-            "version": "3.3.0"
+            "version": "3.3.0-SNAPSHOT"
         },
         {
             "name": "gravitee-management-webui",
-            "version": "3.3.0"
+            "version": "3.3.0-SNAPSHOT"
         },
         {
             "name": "gravitee-portal-webui",
-            "version": "3.3.0"
+            "version": "3.3.0-SNAPSHOT"
         },
         {
             "name": "gravitee-identityprovider-api",
@@ -59,11 +59,11 @@
         },
         {
             "name": "gravitee-plugin",
-            "version": "1.15.0"
+            "version": "1.15.0-SNAPSHOT"
         },
         {
             "name": "gravitee-policy-api",
-            "version": "1.10.0"
+            "version": "1.10.0-SNAPSHOT"
         },
         {
             "name": "gravitee-policy-apikey",
