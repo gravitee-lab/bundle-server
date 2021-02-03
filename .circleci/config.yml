@@ -182,8 +182,11 @@ workflows:
                 - master # ? as discussed ? if un-commented, any new pushed commit to master will trigger a Release Process DRY RUN
   publish_bundles:
     jobs:
-      - publish_bundles_job:
+      - publish_bundles_job_approval:
           type: approval
+      - publish_bundles_job:
+          requires:
+            - publish_bundles_job_approval
           context: cicd-orchestrator
           filters:
             branches:
