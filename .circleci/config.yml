@@ -188,7 +188,8 @@ workflows:
             branches:
               only:
                 - master
-                - /^*.x/
+                - /^[0-999].[0-999].x/
+                # - /^*.x/
             tags:
               # only: /^v.*/
               # the job will be triggered as soon as the
