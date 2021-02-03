@@ -27,11 +27,11 @@
         },
         {
             "name": "gravitee-definition",
-            "version": "1.23.3-SNAPSHOT"
+            "version": "1.23.3"
         },
         {
             "name": "gravitee-gateway",
-            "version": "3.3.0-SNAPSHOT"
+            "version": "3.3.0"
         },
         {
             "name": "gravitee-gateway-api",
@@ -39,7 +39,7 @@
         },
         {
             "name": "gravitee-management-rest-api",
-            "version": "3.3.0-SNAPSHOT"
+            "version": "3.3.0"
         },
         {
             "name": "gravitee-management-webui",
@@ -47,11 +47,11 @@
         },
         {
             "name": "gravitee-portal-webui",
-            "version": "3.3.0-SNAPSHOT"
+            "version": "3.3.0"
         },
         {
             "name": "gravitee-identityprovider-api",
-            "version": "1.0.0-SNAPSHOT"
+            "version": "1.0.0"
         },
         {
             "name": "gravitee-cockpit-api",
