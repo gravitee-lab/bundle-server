@@ -1,29 +1,25 @@
 {
     "name": "Gravitee.io",
-    "version": "4.4.89-SNAPSHOT",
+    "version": "4.3.79-SNAPSHOT",
     "buildTimestamp": "2020-10-15T07:19:32+0000",
     "scmSshUrl": "git@github.com:gravitee-io",
     "scmHttpUrl": "https://github.com/gravitee-io/",
     "components": [
         {
             "name": "graviteek-cicd-test-maven-project-g1",
-            "version": "4.1.40"
+            "version": "4.1.3"
         },
         {
             "name": "graviteek-cicd-test-maven-project-g2",
-            "version": "4.2.68"
+            "version": "4.2.51"
         },
         {
             "name": "graviteek-cicd-test-maven-project-g3",
-            "version": "4.3.18"
-        },
-        {
-            "name": "graviteek-cicd-test-maven-project-g6",
-            "version": "4.6.27"
+            "version": "4.3.4"
         },
         {
             "name": "graviteek-cicd-test-maven-project-fail",
-            "version": "4.4.18"
+            "version": "4.4.12"
         },
         {
             "name": "gravitee-common",
@@ -31,7 +27,7 @@
         },
         {
             "name": "gravitee-definition",
-            "version": "1.23.3-SNAPSHOT"
+            "version": "1.23.3"
         },
         {
             "name": "gravitee-gateway",
@@ -39,7 +35,7 @@
         },
         {
             "name": "gravitee-gateway-api",
-            "version": "1.21.1"
+            "version": "1.21.1-SNAPSHOT"
         },
         {
             "name": "gravitee-management-rest-api",
@@ -47,11 +43,11 @@
         },
         {
             "name": "gravitee-management-webui",
-            "version": "3.3.0-SNAPSHOT"
+            "version": "3.3.0"
         },
         {
             "name": "gravitee-portal-webui",
-            "version": "3.3.0"
+            "version": "3.3.0-SNAPSHOT"
         },
         {
             "name": "gravitee-identityprovider-api",
@@ -67,7 +63,7 @@
         },
         {
             "name": "gravitee-policy-api",
-            "version": "1.10.0"
+            "version": "1.10.0-SNAPSHOT"
         },
         {
             "name": "gravitee-policy-apikey",
@@ -339,11 +335,10 @@
             "graviteek-cicd-test-maven-project-g1"
         ],
         [
-            "graviteek-cicd-test-maven-project-g6",
-            "graviteek-cicd-test-maven-project-fail"
+            "graviteek-cicd-test-maven-project-g2"
         ],
         [
-            "graviteek-cicd-test-maven-project-g2"
+            "graviteek-cicd-test-maven-project-fail"
         ],
         [
             "graviteek-cicd-test-maven-project-g3"
