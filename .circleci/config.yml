@@ -105,10 +105,12 @@ jobs:
     steps:
       - checkout
       - secrethub/install
-      - run:
-          name: "Docker pull"
-          command: |
-                    docker pull quay.io/gravitee-lab/cicd-orchestrator:stable-latest
+      - gravitee/publish_bundles:
+          dry_run: << pipeline.parameters.dry_run >>
+          maven_container_image_tag: stable-latest
+          maven_profile_id: << pipeline.parameters.maven_profile_id>>
+          secrethub_org: << pipeline.parameters.secrethub_org >>
+          secrethub_repo: << pipeline.parameters.secrethub_repo >>
 workflows:
   version: 2.1
   # Blank process invoked when pull requests events are triggered
