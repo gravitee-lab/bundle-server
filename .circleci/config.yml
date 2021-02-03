@@ -106,11 +106,11 @@ jobs:
       - checkout
       - secrethub/install
       - gravitee/publish_bundles:
-          dry_run: << pipeline.parameters.dry_run >>
+          dry_run: false
           maven_container_image_tag: stable-latest
-          maven_profile_id: << pipeline.parameters.maven_profile_id>>
-          secrethub_org: << pipeline.parameters.secrethub_org >>
-          secrethub_repo: << pipeline.parameters.secrethub_repo >>
+          maven_profile_id: gio-release
+          secrethub_org: gravitee-lab
+          secrethub_repo: cicd
 workflows:
   version: 2.1
   # Blank process invoked when pull requests events are triggered
