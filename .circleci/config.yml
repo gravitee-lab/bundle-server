@@ -185,6 +185,10 @@ workflows:
       - publish_bundles_job:
           context: cicd-orchestrator
           filters:
+            branches:
+              only:
+                - master
+                - /^*.x/
             tags:
               # only: /^v.*/
               # the job will be triggered as soon as the
