@@ -19,7 +19,7 @@
         },
         {
             "name": "graviteek-cicd-test-maven-project-fail",
-            "version": "4.4.12"
+            "version": "4.4.13"
         },
         {
             "name": "gravitee-common",
